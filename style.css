@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap);
+
+html{
+    font-family: "jost",sans-serif;
+    background-color: #efefef;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+li{
+    list-style:none;
+}
+
+li,p,label{
+    font-family: urbanist;
+    letter-spacing: 0.06;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+progress{
+    height: 2rem;
+    width: 20rem;
+}
+ul,
+.service-section .service-gallery{
+    display: flex;
+    gap: 1rem;
+}
+
+/* our service section */
+.service-gallery{
+    display: flex;
+}
